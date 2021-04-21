@@ -1,0 +1,4 @@
+$ cd                              ##进入根目录
+$ifconfig                         ## 运行后出现ifconfig :could not  found  command 
+$yum install ifconfig             ## 运行后出现not package ...
+$yum -y install net-tools.x86_64  ## x86_64指的是本人使用是64位架构
